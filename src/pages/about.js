@@ -59,7 +59,7 @@ const about = () => {
 							</h2>
 							<p className='my-4 font-medium'>
 								{" "}
-								Hi, I'm Chimezie Nwagbo, a{" "}
+								Hi, I&apos;m Chimezie Nwagbo, a{" "}
 								<span className='font-bold text-dark/75'>skilled</span> software
 								developer dedicated to bringing ideas to life. With over 5 years
 								of industry experience, I possess a strong foundation in
@@ -81,10 +81,10 @@ const about = () => {
 
 							<p className='my-4 font-medium'>
 								With a proven track record of success, I am committed to making
-								a meaningful impact in my customers' business. By leveraging my
-								experience, creativity, and client-centric mindset, I
-								consistently deliver outstanding results as Chimezie Nwagbo, a
-								dedicated software developer.
+								a meaningful impact in my customers&apos; business. By
+								leveraging my experience, creativity, and client-centric
+								mindset, I consistently deliver outstanding results as Chimezie
+								Nwagbo, a dedicated software developer.
 							</p>
 						</div>
 
