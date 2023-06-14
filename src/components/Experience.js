@@ -72,7 +72,7 @@ const Experience = () => {
                         '
 					/>
 					<Details
-						position='Software Developer/Animator'
+						position='Software Developer / Animator'
 						company='Imaginarium'
 						companyLink='https://www.imaginariumng.com'
 						time='2019-2022'
