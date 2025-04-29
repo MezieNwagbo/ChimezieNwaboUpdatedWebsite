@@ -7,8 +7,10 @@ import Link from "next/link";
 import Image from "next/image";
 
 import pikii from "../../public/images/projects/pikii.png";
+import cantant from "../../public/images/projects/cantant.png";
 import woodart from "../../public/images/projects/woodart.png";
-import cryptoverse from "../../public/images/projects/cryptoverse.png";
+import greenbanker from "../../public/images/projects/greenbanker.jpeg";
+import clinton from "../../public/images/projects/clinton.png";
 import gptLanding from "../../public/images/projects/gpt3-landing.png";
 import metaverse from "../../public/images/projects/ProjectMetaverse.png";
 import { GithubIcon } from "@/components/Icons";
@@ -160,25 +162,37 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Pikii Picture Sharing App"
-                img={pikii}
-                summary="A picture sharing app built using React, Tailwind CSS, Context API, React Router and Sanity. Similar to Pinterest, users can login, like, share, download and comment on pictures."
-                link="https://pikii.netlify.app/"
-                github="https://github.com/MezieNwagbo/Piiki-social-media-app"
-                type="Featured Project"
+                title="Cantant Business Assistant"
+                img={cantant}
+                summary="Cantant is a modern bookkeeping and business assistant app designed to help small business owners track income and expenses and manage their finances effortlessly through a simple, intuitive interface."
+                link="https://app.mycantant.com"
+                github=""
+                type="react, materialUI, recoil, chart-js-2, node.js"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Woodart Online Store"
-                img={woodart}
-                summary="An online shop prototype built for a luxury furniture store. Tools used include React, Redux and Context Api."
-                link="https://woodart-store.netlify.app/"
-                github="https://github.com/MezieNwagbo/woodart"
-                type="Featured Project"
+                title="Greenbanker"
+                img={greenbanker}
+                summary="Greenbanker is a banking-as-a-service platform built to provide financial tools and services to rural farmers and small business owners, enabling access to credit, savings, and transaction capabilities in underserved communities.
+
+"
+                link="https://greenbanker.crust.africa"
+                github=""
+                type="react, chart-js-2 "
               />
             </div>
+
             <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Clinton Properties"
+                img={clinton}
+                summary="A real estate applicaTon to enable users to buy and sell properties. "
+                link="https://www.clintonsdevelopers.com"
+                github=""
+              />
+            </div>
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Cryptoverse"
                 img={cryptoverse}
@@ -187,7 +201,7 @@ const projects = () => {
                 github="https://github.com/MezieNwagbo/cryptoverse-website"
                 type="Featured Project"
               />
-            </div>
+            </div> */}
             <div className="col-span-12">
               {" "}
               {/* <FeaturedProject
@@ -203,22 +217,23 @@ local currency.'
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="GPT-3 Landing Page"
-                img={gptLanding}
-                summary="Landing page design implementation for an AI product. "
-                link="https://gpt-3landingpage.netlify.app/"
-                github="https://github.com/MezieNwagbo/gpt3-project"
-                type="UI design Implementation"
+                title="Woodart Online Store"
+                img={woodart}
+                summary="An online shop prototype built for a luxury furniture store."
+                link="https://woodart-store.netlify.app/"
+                github="https://github.com/MezieNwagbo/woodart"
+                type="react, redux"
               />
             </div>
+
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Metaversus Website"
-                img={metaverse}
-                summary="Implementation of a website design for a metaverse website."
-                link="https://metavmadness.netlify.app/"
-                github="#"
-                type="UI design Implementation"
+                title="Pikii Picture Sharing App"
+                img={pikii}
+                summary="A picture sharing app similar to Pinterest, users can login, like, share, download and comment on pictures."
+                link="https://pikii.netlify.app/"
+                github="https://github.com/MezieNwagbo/Piiki-social-media-app"
+                type="react, tailwind, sanity.io"
               />
             </div>
           </div>
