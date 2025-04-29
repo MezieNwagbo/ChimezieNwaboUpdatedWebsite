@@ -190,6 +190,7 @@ const projects = () => {
                 summary="A real estate applicaTon to enable users to buy and sell properties. "
                 link="https://www.clintonsdevelopers.com"
                 github=""
+                type="react, styled components, redux toolkit"
               />
             </div>
             {/* <div className="col-span-6 sm:col-span-12">
