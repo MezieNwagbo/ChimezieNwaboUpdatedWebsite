@@ -8,7 +8,8 @@ import Image from "next/image";
 
 import pikii from "../../public/images/projects/pikii.png";
 import cantant from "../../public/images/projects/cantant.png";
-import woodart from "../../public/images/projects/woodart.png";
+import zenchat from "../../public/images/projects/zenchat.png";
+
 import greenbanker from "../../public/images/projects/greenbanker.jpeg";
 import clinton from "../../public/images/projects/clinton.png";
 import gptLanding from "../../public/images/projects/gpt3-landing.png";
@@ -37,7 +38,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
         <FramerImage
           src={img}
           alt={title}
-          className="w-full h-auto"
+          className="w-full h-100"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.2 }}
         />
@@ -93,7 +94,7 @@ const Project = ({ type, title, img, link, github, summary }) => {
         <FramerImage
           src={img}
           alt={title}
-          className="w-full h-auto"
+          className="w-full h-[400px]"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.2 }}
           priority
@@ -174,7 +175,7 @@ const projects = () => {
               <Project
                 title="Greenbanker"
                 img={greenbanker}
-                summary="Greenbanker is a banking-as-a-service platform built to provide financial tools and services to rural farmers and small business owners, enabling access to credit, savings, and transaction capabilities in underserved communities.
+                summary="A banking-as-a-service platform built to provide financial tools and services to rural farmers and small business owners.
 
 "
                 link="https://greenbanker.crust.africa"
@@ -216,14 +217,15 @@ local currency.'
 								type='Featured Project'
 							/> */}
             </div>
+
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Woodart Online Store"
-                img={woodart}
-                summary="An online shop prototype built for a luxury furniture store."
-                link="https://woodart-store.netlify.app/"
-                github="https://github.com/MezieNwagbo/woodart"
-                type="react, redux"
+                title="Zenchat application"
+                img={zenchat}
+                summary="A chat fullstack application with realtime chat functionality. chat fullstack application with realtime chat functionality."
+                link="https://zenchat-s2pc.onrender.com//"
+                github="https://github.com/MezieNwagbo/zenchat"
+                type="react, zustand, node.js, socket.io"
               />
             </div>
 
